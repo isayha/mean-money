@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Catto!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+        .bg {
+            background-color: black;
+            color: green;
+        }
+        .h1 {
+            font-family: "Comic Sans", "Comic Sans MS";
+            font-size: 48px;
+            padding-left: 24px;
+        }
+    </style>
+    <script src="/js/catto.js" defer></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="imgbox">
+            <h1 id="meow" class="h1">meow</h1>
+            <img class="center-fit" src="/img/catto.jpg" alt="catto.jpg"/>
+        </div>
+    </div>
+</body>
+</html>
